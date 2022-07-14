@@ -37,9 +37,19 @@
         background-color: gray;
         color: white;
     }
+    main{
+        width: 100%;
+        position: relative;
+    }
     section{
-        margin: 15px;
+        text-align: justify;
+        text-indent: 25px;
+        margin: 20px;
     }
     section h2{
         text-align: center;
+    }
+    footer{
+        text-align: right;
+        color: red;
     }
