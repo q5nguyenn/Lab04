@@ -1,0 +1,45 @@
+
+    *{
+        margin: 0;
+    }
+    body {
+        background-color: whitesmoke;
+    }
+    header{
+        text-align: center;
+        margin-top: 15px;
+    }
+    nav{
+        margin-top: 20px;
+        width: 100%;
+    }
+    ul{
+        background-color: lightgray;
+        border: 2px solid lightslategray;
+        list-style-type: none;
+        overflow: auto;
+        margin: 0;
+        padding: 0;
+    }
+    li{
+        float: left;
+        border-right: 2px solid darkgray;
+    }
+    a{
+        /*border: 2px solid red;*/
+        display: block;
+        text-decoration: none;
+        padding: 10px;
+        color: darkgreen;
+        font-weight: bold;
+    }
+    a:hover{
+        background-color: gray;
+        color: white;
+    }
+    section{
+        margin: 15px;
+    }
+    section h2{
+        text-align: center;
+    }
