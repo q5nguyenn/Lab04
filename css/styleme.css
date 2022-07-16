@@ -14,6 +14,11 @@
     nav{
         width: 100%;
     }
+    nav::after {
+        content: "";
+        clear: both;
+        display: block;
+    }
     ul{
         background-color: black;
         /*border: 2px solid lightslategray;*/
@@ -48,13 +53,17 @@
         text-align: justify;
         text-indent: 25px;
         float: left;
-        width: 25%;   
+        width: 25%;
     }
-    aside div{
-        border: 2px solid  white;
+    div.aside{
+        /*border: 2px solid red;*/
         background-color: white;
         height: 700px;
         margin-right: 20px;
+        padding: 10px;
+    }
+    .aside h2 {
+        margin-top: 0;
     }
     section{
         /*border: 2px solid blue;*/
@@ -64,6 +73,7 @@
         display: inline-block;
         width: 75%;
         padding-left: 20px;
+        padding-right: 20px;
         height: 700px;
         background-color: white;
         display: inline-block;
